@@ -102,7 +102,7 @@ ___
 ## CSS code altered
 
 ```css
-/* removed margin-bottom and background-image for accessibility from HTML from class hero.
+/* removed background-image for accessibility from HTML from class hero.
 
 Sets a height to 800px, width: 100%, and a margin-bottom of 25px 
 */
