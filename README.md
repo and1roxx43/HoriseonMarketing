@@ -40,7 +40,7 @@ ___
 ```html
 
     <section class="hero">
-        <img  src="./Assets/images/digital-marketing-meeting.jpg" alt="page banner">
+        <img  src="./assets/images/digital-marketing-meeting.jpg" alt="page banner">
     </section>
 ```  
 
@@ -85,7 +85,7 @@ ___
 ```html
     <!--Section area to hold banner-->
     <section class="hero">
-        <img  src="./Assets/images/digital-marketing-meeting.jpg" alt="page banner">
+        <img  src="./assets/images/digital-marketing-meeting.jpg" alt="page banner">
     </section>
         <!--section banner ends here-->
 ```
