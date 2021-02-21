@@ -21,6 +21,7 @@ ___
 - All div elements were replaced with semantic HTML elements and all images added an alt attributes.
 - Empty divs were replaced with semantic HTML and background image added and alt attribute.
 - Descriptive title added.
+- css selector altered.
 ___
 ## HTML code added
 
@@ -125,3 +126,13 @@ Sets height and width to 100%, background-size, background-size and background-p
 
 ___
 
+Deployed application URL:
+
+```
+https://and1roxx43.github.io/HoriseonMarketing/
+```
+GitHub repository URL
+
+```
+https://github.com/and1roxx43/HoriseonMarketing
+```
