@@ -53,11 +53,11 @@ ___
     </main>
 ```
 
-5. Fifth div element was replaced with a section element including 3 article elements
+5. Fifth div element was replaced with a section element including 3 aside elements
 
 ```html
     <section>
-        <article></article>
+        <aside></aside>
     </section>
 
 ```
