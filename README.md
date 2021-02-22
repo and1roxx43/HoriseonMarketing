@@ -16,19 +16,19 @@ The web page and source code should meet the following acceptance criteria:
 
 
 ___
-## Resolution 
+## Task
 
-- All div elements were replaced with semantic HTML elements and all images added an alt attributes.
-- Empty divs were replaced with semantic HTML and background image added and alt attribute.
+- Replace all div elements with semantic HTML elements and all images added an alt attributes to improve readability, and accessibility for people with disabilities and search engine optimisations.
+- Replaced empty div with a section element and an image element, and added an alt attribute.
 - Descriptive title added.
 - css selector altered.
 ___
-## HTML code added
+## HTML code added (changes made)
 
 1. First div was replaced with a header element
 ```html
 
-    <header class="header"></header>
+    <header></header>
 ```  
 
 2. Second div replaced with a nav element
@@ -102,6 +102,47 @@ ___
 ## CSS code altered
 
 ```css
+
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/* Sets h1 within parent selector to display to inline block and font-size 48px*/
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* Sets class seo span color */
+header h1 .seo {
+    color: #d9dcd6;
+}
+
+/* -- Nav selector -- */
+
+/* Sets padding-top 15px, margin-right 20px, float-right, font-family, font-size 20px to nav seletor */
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* Remove list style from ul child of nav */
+header nav ul {
+    list-style-type: none;
+}
+
+/* Display li in inline-block and set a margin-left of 25px */
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
 /* removed background-image for accessibility from HTML from class hero.
 
 Sets a height to 800px, width: 100%, and a margin-bottom of 25px 
@@ -114,6 +155,7 @@ Sets a height to 800px, width: 100%, and a margin-bottom of 25px
 }
 
 /* 
+Added a Section elemen to hold the image selector
 Sets height and width to 100%, background-size, background-size and background-position
 */
 .hero img{
@@ -123,8 +165,30 @@ Sets height and width to 100%, background-size, background-size and background-p
     background-position: center;
 }
 ```
+```css
+/* Sets main element selector width to 75%, display to inline-block, and margin-left to 20px */
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+```
 
+```css
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/* Sets font-size to 20px */
+footer h2 {
+    font-size: 20px;
+}
+```
 ___
+## Review url 
 
 Deployed application URL:
 

@@ -5,35 +5,37 @@
     margin: 0;
 }
 
-/* Sets element selector for all element types.
+/* Sets element selector for all element types. */
 
-Sets background color.
-*/
 body {
     background-color: #d9dcd6;
 }
 
-/* Header Selector. Sets padding 20px, font-family, backgroud color. */
-.header {
+/* -- Header Selector --*/
+
+/* Sets padding 20px, font-family, backgroud color. */
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-/* Sets display to inline block and font-size 48px*/
-.header h1 {
+/* Sets h1 within parent selector to display to inline block and font-size 48px*/
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-/* Sets color to span selector */
-.header h1 .seo {
+/* Sets class seo span color */
+header h1 .seo {
     color: #d9dcd6;
 }
 
+/* -- Nav selector -- */
+
 /* Sets padding-top 15px, margin-right 20px, float-right, font-family, font-size 20px to nav seletor */
-.header nav {
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -42,15 +44,17 @@ body {
 }
 
 /* Remove list style from ul child of nav */
-.header nav ul {
+header nav ul {
     list-style-type: none;
 }
 
 /* Display li in inline-block and set a margin-left of 25px */
-.header nav ul li {
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
+
+/* -- Anchor selector -- */
 
 /* Sets color to anchor selectors, and no text-decoration */
 a {
@@ -58,47 +62,107 @@ a {
     text-decoration: none;
 }
 
-/* Sets a font-size to 16px */
+/* Sets all paragraph element seletor font-size to 16px */
 p {
     font-size: 16px;
 }
 
-/* /* removed background-image for accessibility from HTML from class hero.
-Sets a height to 800px, width: 100%, and a margin-bottom of 25px 
-*/
+/* -- Image Banner -- */
+
+/* Sets a height to 800px, width: 100%, and a margin-bottom of 25px */
 .hero {
     height: 800px;
     width: 100%;
-    /* background-image: url("../images/digital-marketing-meeting.jpg"); */
     margin-bottom: 25px;
 }
 
-/* Sets height and width to 100%, background-size, background-size and background-position */
+/* Sets height to 800px and width to 100%, background-size, background-size and background-position */
 .hero img{
-    height: 100%;
+    height: 800px;
     width: 100%;
     background-size: cover;
     background-position: center;
 }
 
-/* Sets float, margin-right to 25px */
+/* -- Main element selector -- */
+
+/* Sets width to 75%, display to inline-block, and margin-left to 20px */
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* Sets float left, margin-right to 25px */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
-/* Sets float, margin-left to 25px */
+/* Sets float right, margin-left to 25px */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
-/* Sets width to 75%, display to inline-block, and margin-left to 20px */
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
+/* Sets margin-bottom to 20px, padding to 50px, height to 300px, font-family, background-color, color */
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
 }
+
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Sets max-height to 200px */
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+/* Sets margin-bottom to 20px, font-size to 36px */
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* -- Section element selector -- */
 
 /* Sets margin-left 20px, padding 20px, clear, float, width 20px, height 100%, font-family, background-color*/
 .benefits {
@@ -169,67 +233,12 @@ Sets a height to 800px, width: 100%, and a margin-bottom of 25px
     max-width: 150px;
 }
 
-/* Sets margin-bottom to 20px, padding to 50px, height to 300px, font-family, background-color, color */
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
 
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/* Sets max-height to 200px */
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-/* Sets margin-bottom to 20px, font-size to 36px */
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
+/* -- Footer element selector -- */
 
 /* Sets padding to 30px, clear to both, font-family, text-align to center */
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -237,6 +246,6 @@ Sets a height to 800px, width: 100%, and a margin-bottom of 25px
 }
 
 /* Sets font-size to 20px */
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
