@@ -21,7 +21,7 @@ ___
 - Replace all div elements with semantic HTML elements and all images added an alt attributes to improve readability, and accessibility for people with disabilities and search engine optimisations.
 - Replaced empty div with a section element and an image element, and added an alt attribute.
 - Descriptive title added.
-- css selector altered.
+- css selector altered, and modified as too many repetitions.
 ___
 ## HTML code added (changes made)
 
